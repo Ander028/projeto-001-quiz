@@ -1,13 +1,11 @@
+import {Quiz} from './components/quiz'
 import './styles/global.css'
-
-function App() {
-
-  
-
-  return (
-    <h1>Hello word</h1>
-  )
-}
-
-
 export default App
+
+function App (){
+    return(
+      
+    <Quiz />
+    
+    )
+}
